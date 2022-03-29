@@ -6,6 +6,8 @@
 
     <context:component-scan base-package="polymorphism"/>
 
+    <bean class="polymorphism.AppleSpeaker"/>
+
     <!-- 어쩔티비 객체 생성 -->
     <!--
         <bean id="tv" class="polymorphism.어쩔TV">

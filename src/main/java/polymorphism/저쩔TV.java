@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 
 @Component("tv")
 public class 저쩔TV implements TV{
-    @Resource(name = "sony")
+    @Autowired
     private Speaker speaker;
 
     public void powerOn(){
